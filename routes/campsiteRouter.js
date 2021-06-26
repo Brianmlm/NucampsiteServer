@@ -1,5 +1,5 @@
 const express = require('express')
-const Campsite = require('../models/campsite')
+const Campsite = require('../Models/campsite')
 
 const campsiteRouter = express.Router()
 
