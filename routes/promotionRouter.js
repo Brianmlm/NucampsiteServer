@@ -1,7 +1,7 @@
 const express = require('express')
 const promotionRouter = express.Router()
 const authenticate = require('../authenticate')
-const Promotion = require('../models/promotion')
+const Promotion = require('../models/promotions')
 
 promotionRouter
   .route('/')
